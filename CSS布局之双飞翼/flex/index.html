@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex 布局</title>
+  <style>
+  	.wrapper{
+  		display: flex;
+  		width: 1000px;
+  		margin: 0 auto;
+  	}
+  	.nav{
+  		width: 120px;
+  		order: 1;
+
+  		background: blue;
+  		height: 200px;
+  	}
+  	.main{
+  		flex: 1;
+  		order: 2;
+
+  		background: green;
+  		height: 400px;
+  	}
+  	.aside{
+  		width: 100px;
+  		order: 3;
+
+  		background: yellow;
+  		height: 300px;
+  	}
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+  	<div class="main"></div>
+  	<div class="nav"></div>
+  	<div class="aside"></div>
+  </div>
+</body>
+</html>
