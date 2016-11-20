@@ -1,6 +1,6 @@
 {
   "name": "Teaching",
   "tagline": "教学内容",
-  "body": "# 方方的教学代码\r\n\r\n\r\n* [CSS布局之双飞翼/table/](CSS布局之双飞翼/table/)",
+  "body": "# 方方的教学代码\r\n\r\n\r\n* CSS布局之双飞翼\r\n  * [table](CSS布局之双飞翼/table/)\r\n  * [position](CSS布局之双飞翼/position/)\r\n  * [float](CSS布局之双飞翼/float/)\r\n  * [双飞翼](CSS布局之双飞翼/wings/)\r\n  * [flex](CSS布局之双飞翼/flex/)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
