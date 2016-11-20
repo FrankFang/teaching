@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>使用 position 布局</title>
+	<style>
+		.wrapper{
+			width: 1000px;
+			position: relative;
+			margin: 0 auto;
+		}
+		.nav{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 120px;
+
+			background: blue;
+			height: 200px;
+		}
+		.main{
+			margin-left: 120px;
+			margin-right: 100px;
+
+			height: 400px;
+			background: green;
+		}
+		.aside{
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 100px;
+
+			background: yellow;
+			height: 300px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="nav"></div>
+		<div class="main"></div>
+		<div class="aside"></div>
+	</div>
+</body>
+</html>
